@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B. R. Ambedkar</title>
+    <style>
+        #header {
+            padding: 30px;
+            background: #1abc9c;
+        }
+
+        #main h1,
+        h5 {
+            text-align: center;
+        }
+
+        #img-div {
+            /* How to Center an image using text-align: center 
+             https://www.freecodecamp.org/news/how-to-center-an-image-using-text-align/ */
+            /* text-align: center;
+            display: block; */
+            padding: 50px;
+            background: blanchedalmond;
+        }
+
+        #image {
+            max-width: 30%;
+            height: auto;
+            border: 2px solid blue;
+            display: block;
+            margin: 0 auto;
+        }
+
+        #list-section {
+            background: cornflowerblue;
+            padding: 20px;
+        }
+
+        /* How to center an unordered list https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list  */
+        #list-section ul {
+            display: table;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+
+        #tribute-info {
+            padding: 30px;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: gainsboro;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+
+        <div id="header">
+            <h1 id="title">B. R. Ambedkar</h1>
+            <h5>a scholar, a social reformer and a leader who dedicated his life to eradicating social inequality in
+                India
+            </h5>
+        </div>
+
+        <div id="img-div">
+            <!-- Responsive Web Design Image https://www.w3schools.com/css/css_rwd_images.asp -->
+            <img id="image" src="BRAmbedkar.jpg" alt="B. R. Ambedkar Image">
+            <h5 id="img-caption">Most eligible candidate who couldn't be 1st Prime Minister of India in 1947</h5>
+        </div>
+
+        <section id="list-section">
+            <h1>Databases:</h1>
+            <ul>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1880s_andbefore.html"
+                        target="_blank">earlier times</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1890s.html"
+                        target="_blank">in the 1890's</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1900s.html"
+                        target="_blank">in the 1900's</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1910s.html"
+                        target="_blank">in the 1910's</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1920s.html"
+                        target="_blank">in the 1920's</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1930s.html"
+                        target="_blank">in the 1930's</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1940s.html"
+                        target="_blank">in the 1940's</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1950s.html"
+                        target="_blank">in the 1950's</a></li>
+                <li><a href="http://www.columbia.edu/itc/mealac/pritchett/00ambedkar/timeline/1960s_andafter.html"
+                        target="_blank">since then</a></li>
+            </ul>
+        </section>
+
+        <footer>
+            <p id="tribute-info"><a id="tribute-link" href="https://en.wikipedia.org/wiki/B._R._Ambedkar"
+                    target="_blank">Ambedkar</a> Read more on wikipedia</p>
+        </footer>
+
+    </div>
+</body>
+
+</html>
