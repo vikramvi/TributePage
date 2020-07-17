@@ -6,54 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>B. R. Ambedkar</title>
     <style>
-        #header {
-            padding: 30px;
-            background: #1abc9c;
+        html {
+            /* Setting a base font size of 10px give us easier rem calculations
+                Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+            */
+            font-size: 10px;
         }
 
-        #main h1,
-        h5 {
+        body {
+            /* Native font stack https://getbootstrap.com/docs/4.2/content/reboot/#native-font-stack */
+            /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;*/
+            font-size: 2.0rem;
+            line-height: 2.0;
             text-align: center;
-        }
-
-        #img-div {
-            /* How to Center an image using text-align: center 
-             https://www.freecodecamp.org/news/how-to-center-an-image-using-text-align/ */
-            /* text-align: center;
-            display: block; */
-            padding: 50px;
-            background: blanchedalmond;
-        }
-
-        #image {
-            max-width: 30%;
-            height: auto;
-            border: 2px solid blue;
-            display: block;
-            margin: 0 auto;
-        }
-
-        #list-section {
-            background: cornflowerblue;
-            padding: 20px;
-        }
-
-        /* How to center an unordered list https://stackoverflow.com/questions/19443013/how-to-center-an-unordered-list  */
-        #list-section ul {
-            display: table;
-            margin: 0 auto;
-            font-size: 20px;
-        }
-
-        #tribute-info {
-            padding: 30px;
-            position: fixed;
-            left: 0;
-            bottom: 0;
-            width: 100%;
-            background-color: gainsboro;
-            color: white;
-            text-align: center;
+            color: #333;
+            margin: 0;
         }
     </style>
 </head>
